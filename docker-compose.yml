@@ -22,9 +22,3 @@ services:
       - mysql
     ports:
       - 8080:80
-  phpmyadmin:
-    image: phpmyadmin:latest
-    ports:
-      - 8090:80
-    links:
-      - mysql
