@@ -9,3 +9,6 @@
 /vendor
 /.editorconfig
 /.gitattributes
+
+/web/sites/*/files/css
+/web/sites/*/files/js
