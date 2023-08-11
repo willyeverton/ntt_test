@@ -1,0 +1,11 @@
+name: TinyPNG
+description: Provides TinyPNG integration
+core: 8.x
+core_version_requirement: ^8 || ^9 || ^10
+type: module
+configure: tinypng.settings.form
+
+# Information added by Drupal.org packaging script on 2022-06-21
+version: '8.x-1.2'
+project: 'tinypng'
+datestamp: 1655804322
