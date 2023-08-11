@@ -22,3 +22,6 @@ if there is the error in mysqli, run the commands below to install mysqli in you
 To install drush in the container run:
 'docker exec -it ntt_test_drupal_1 sh' to access the container shell
 'composer requires drush/drush'
+
+In the 'config' folder are the drupal site settings to be imported
+In the 'backup.mysql' file is the database to be imported by module contrib "Backup and Migrate"

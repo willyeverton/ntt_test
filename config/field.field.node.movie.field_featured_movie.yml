@@ -1,0 +1,21 @@
+uuid: 8afc0d0e-93ca-4024-9a3f-de408bc2774a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_featured_movie
+    - node.type.movie
+id: node.movie.field_featured_movie
+field_name: field_featured_movie
+entity_type: node
+bundle: movie
+label: 'Featured Movie'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

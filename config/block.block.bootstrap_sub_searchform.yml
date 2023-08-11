@@ -1,0 +1,21 @@
+uuid: 332c06fb-5a34-42ae-99cd-29a82d661276
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - bootstrap_sub
+id: bootstrap_sub_searchform
+theme: bootstrap_sub
+region: navigation_collapsible
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: ''
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 13841d1f-bdf9-4564-b5f3-4e0a74545566
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - claro
+_core:
+  default_config_hash: epkC1GzKUpeY8iihrvLbwUw9Z6uz2cJKUYnjBCEJOdU
+id: acquia_claro_help
+theme: claro
+region: help
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

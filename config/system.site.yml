@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 6d9950cc-a6aa-49a2-abe7-c9ceeaccdf22
+name: 'Movie Catalog'
+mail: willy.everton.s.nascimento@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /movies-in-spotlight
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
