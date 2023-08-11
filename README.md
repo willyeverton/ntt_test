@@ -24,4 +24,4 @@ To install drush in the container run:
 'composer requires drush/drush'
 
 In the 'config' folder are the drupal site settings to be imported
-In the 'backup.mysql' file is the database to be imported by module contrib "Backup and Migrate"
+In the 'db' folder is the database to be imported by module contrib "Backup and Migrate"
