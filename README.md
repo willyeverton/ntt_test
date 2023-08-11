@@ -1,4 +1,4 @@
-# ntt_test
+# Movie Catalog website in Drupal 10
 
 After downloading this repository, run 'composer install' command to install project dependencies
 
