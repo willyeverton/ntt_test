@@ -5,10 +5,5 @@
 # follows official upstream conventions:
 # https://www.drupal.org/docs/develop/using-composer
 
-# Ignore paths that may contain temporary files
-/web/sites/*/translations
-/web/sites/*/tmp
-/web/sites/*/cache
-
 # Ignore vendor dependencies and scripts
 /vendor

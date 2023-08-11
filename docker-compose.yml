@@ -1,0 +1,30 @@
+version: "3"
+services:
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: drupal
+      MYSQL_USER: drupal
+      MYSQL_PASSWORD: drupal
+  drupal:
+    image: drupal:latest
+    environment:
+      MYSQL_USER: drupal
+      MYSQL_PASSWORD: drupal
+    volumes:
+      - ./web:/var/www/html
+      - ./vendor:/opt/drupal/vendor
+      - ./composer.json:/opt/drupal/composer.json
+      - ./composer.lock:/opt/drupal/composer.lock
+    restart: always
+    links:
+      - mysql
+    ports:
+      - 8080:80
+  phpmyadmin:
+    image: phpmyadmin:latest
+    ports:
+      - 8090:80
+    links:
+      - mysql

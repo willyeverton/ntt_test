@@ -1,0 +1,23 @@
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+ .author {
+    content-visibility: hidden;
+}
+
+.field--name-field-actor .field--items {
+    font-size: x-large;
+}
+
+.field--name-field-movies .field--items {
+    font-size: x-large;
+}
+
+.field--name-field-featured-movie {
+    content-visibility: hidden;
+}
+
+form#search-block-form .input-group {
+    top: 8px;
+}
