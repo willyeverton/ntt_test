@@ -43,7 +43,7 @@ display:
           alter:
             alter_text: false
             text: ''
-            make_link: true
+            make_link: false
             path: ''
             absolute: false
             external: false
@@ -55,7 +55,7 @@ display:
             link_class: ''
             prefix: ''
             suffix: ''
-            target: _blank
+            target: ''
             nl2br: false
             max_length: 0
             word_boundary: true
@@ -106,7 +106,7 @@ display:
           alter:
             alter_text: false
             text: '<a href="/node/{{ nid }}" target="_blank">{{ field_poster }}</a>'
-            make_link: true
+            make_link: false
             path: ''
             absolute: false
             external: false
@@ -118,7 +118,7 @@ display:
             link_class: ''
             prefix: ''
             suffix: ''
-            target: _blank
+            target: ''
             nl2br: false
             max_length: 0
             word_boundary: true
@@ -186,7 +186,7 @@ display:
             suffix: ''
             target: ''
             nl2br: false
-            max_length: 750
+            max_length: null
             word_boundary: false
             ellipsis: false
             more_link: false
@@ -209,9 +209,8 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: value
-          type: text_trimmed
-          settings:
-            trim_length: 600
+          type: text_default
+          settings: {  }
           group_column: value
           group_columns: {  }
           group_rows: true
