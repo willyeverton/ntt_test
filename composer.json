@@ -23,6 +23,7 @@
         "drupal/core-recommended": "^10.1",
         "drupal/native_lazy_loading": "^1.1@RC",
         "drupal/pathauto": "^1.11",
+        "drupal/seven": "^1.0",
         "drupal/tinypng": "^1.2"
     },
     "conflict": {
